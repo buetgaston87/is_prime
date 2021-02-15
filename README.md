@@ -12,7 +12,7 @@ Return True if a given natural number is prime and False if it is not
 ```python
 def is_prime(num):
     if num < 2:
-        return None
+        return False
     if num == 2:
         return True
     if num%2==0:
