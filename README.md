@@ -62,7 +62,7 @@ e) Number: 11
 - 11%2 = 1
 - 11%3 = 2
 
-Then 11 is not prime.
+Then 11 is prime.
 
 f) Number: 19
 - 19%2 = 1
