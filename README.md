@@ -26,6 +26,7 @@ def isPrime(num):
 
 ### Explanation
 The number 2 is prime.
+
 All even natural numbers greater than 2 are not prime.
 Being num an odd natural number greater than 2:
     If the modulus of the division of num by another number n (where 2 <= n < num) converges to 0 (zero), then num is not prime.
