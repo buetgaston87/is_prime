@@ -7,10 +7,10 @@ natural numbers. A natural number greater than 1 that is not prime is called a c
 (Wikipedia)
 ```
 
-### isPrime() function
+### is_prime() function
 Return True if a given natural number is prime and False if it is not
 ```python
-def isPrime(num):
+def is_prime(num):
     if num < 2:
         return None
     if num == 2:
