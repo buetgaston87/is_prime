@@ -3,9 +3,7 @@
 # Return True if a given natural number is prime and False if it is not
 def is_prime(num):
     if num < 2:
-        return False
-    if num == 2:
-        return True
+        return False    
     for n in range(2,num):
         if num%n == 0:
             return False
