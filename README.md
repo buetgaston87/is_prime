@@ -3,7 +3,7 @@
 ### Prime number definition
 ```
 A prime number (or a prime) is a natural number greater than 1 that is not a product of two smaller natural numbers. A natural number greater than 1 that is not prime is called a composite number.
-*From Wikipedia, the free encyclopedia*
+(Wikipedia)
 ```
 
 ### isPrime() function
@@ -29,10 +29,9 @@ The number 2 is prime.
 
 All even natural numbers greater than 2 are not prime.
 
-Being num an odd natural number greater than 2:
-    
-    If the modulus of the division of num by another number n (where 2 <= n < num) converges to 0 (zero), then num is not prime.
-    If not, num is prime.
+Being num an odd natural number greater than 2:  
+- If the modulus of the division of num by another number n (where 2 <= n < num) converges to 0 (zero), then num is not prime.
+- If not, num is prime.
 
 Number: 3
 - 3%2 = 1
