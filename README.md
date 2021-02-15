@@ -1,4 +1,4 @@
-## Simple function to know if a given natural number is prime or not
+## Simple function to determine if a given natural number is prime or not
 
 ### Prime number definition
 ```
