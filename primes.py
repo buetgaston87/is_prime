@@ -1,6 +1,6 @@
 #!/bin/python3
 
-# Return True if a given natural number is prime and False if it is not
+# Return True if a given natural number greater than one is prime and False if it is not
 def is_prime(num):
     assert type(num) is int, "num is not an integer: %r" % num
     assert num > 1, "num is not greater than one: %r" % num    
