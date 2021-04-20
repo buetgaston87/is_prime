@@ -8,13 +8,11 @@ natural numbers. A natural number greater than 1 that is not prime is called a c
 ```
 
 ### is_prime() function
-Return True if a given natural number is prime and False if it is not
+Return True if a given natural number greater than one is prime and False if it is not
 ```python
 def is_prime(num):
     assert type(num) is int, "num is not an integer: %r" % num
-    assert num > 0, "num is not greater than zero: %r" % num
-    if num == 1:
-        return False
+    assert num > 1, "num is not greater than one: %r" % num
     for n in range(2,num):
         if num%n == 0:
             return False
