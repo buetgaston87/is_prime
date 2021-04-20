@@ -11,7 +11,7 @@ def is_prime(num):
             return True
     return True
 
-# Return a list of all the prime numbers from 2 to the given number. The input must be a natural number
+# Return a list of all the prime numbers from 2 to the given number. The input must be a natural number greater than one
 def primes_number_generator(num):
     assert type(num) is int, "num is not an integer: %r" % num
     assert num > 1, "num is not greater than one: %r" % num
