@@ -15,8 +15,4 @@ def is_prime(num):
 def primes_number_generator(num):
     assert type(num) is int, "num is not an integer: %r" % num
     assert num > 1, "num is not greater than one: %r" % num
-    primes = []
-    for n in range(2,num+1):
-        if is_prime(n):
-            primes.append(n)
-    return primes
+    return [n for n in range(2,num+1) if is_prime(n)]
